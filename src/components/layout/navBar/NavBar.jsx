@@ -16,7 +16,7 @@ const NavBar = () => {
             <Box>
               
               <img 
-                src="public\Logo Beltran.png" 
+                src="/public/Logo Beltran.png" 
                 alt="Club Logo"
                 style={{ height: "16vh" }} 
               />

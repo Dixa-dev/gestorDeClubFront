@@ -1,4 +1,5 @@
 import { Box, TextField, Typography } from "@mui/material";
+import { Formik } from "formik";
 
 const TextInput = ({ label, name, type = "text", formik, placeholder }) => (
     <Box sx={{ display: "flex", flexDirection: "column"  }}>
@@ -8,8 +9,8 @@ const TextInput = ({ label, name, type = "text", formik, placeholder }) => (
         name={name}
         placeholder={placeholder}
         type={type}
-        value={formik.value[name]}
-        onChange={formik.handleChange}
+        value={Formik.value[name]}
+        onChange={Formik.handleChange}
         error={formik.errors[name] ? true : false}
         helperText={formik.errors[name]}
         sx={{ marginBottom: "1vh"}}
