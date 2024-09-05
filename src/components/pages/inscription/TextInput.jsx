@@ -8,7 +8,7 @@ const TextInput = ({ label, name, type = "text", formik, placeholder }) => (
         name={name}
         placeholder={placeholder}
         type={type}
-        value={formik.values[name]}
+        value={formik.value[name]}
         onChange={formik.handleChange}
         error={formik.errors[name] ? true : false}
         helperText={formik.errors[name]}
