@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import FormRegistration from "./components/pages/inscription/FormRegistration"
-import ListPlayers from "./components/pages/players/listPlayers"
+import ListPlayers from "./components/pages/players/ListPlayers.jsx"
 import NavBar from "./components/layout/navBar/NavBar"
 import Home from "./components/pages/home/Home"
 
