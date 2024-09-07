@@ -3,6 +3,7 @@ import FormRegistration from "./components/pages/inscription/FormRegistration.js
 import ListPlayers from "./components/pages/players/ListPlayers.jsx"
 import NavBar from "./components/layout/navBar/NavBar"
 import Home from "./components/pages/home/Home"
+import CuotasPorMes from "./components/pages/home/estadisticas/Pie.jsx"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/register" element={<FormRegistration />} />
       <Route path="/players" element={<ListPlayers />} />
+      <Route path="/estadisticas" element={<CuotasPorMes/>} />
      
 
       </Routes>
